@@ -1,0 +1,12 @@
+{
+  "name": "HTML-CSS-Practice-3",
+  "version": "1.0.0",
+  "description": "HTML-CSS",
+  "main": "index.js",
+  "repository": "https://github.com/minhtri9623/HTML-CSS-Practice-3.git",
+  "author": "LAPTOP-PK8JHPSO\\ADMIN <nguyenminhtri90602003@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}

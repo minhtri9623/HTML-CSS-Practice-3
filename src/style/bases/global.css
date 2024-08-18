@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+button,
+input,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-weight: var(--font-weight-default);
+  line-height: var(--line-height-default);
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/* tablet */
+@media (min-width: 768px) {
+  .container {
+    max-width: 950px;
+    margin: 0 auto;
+  }
+}
+
+/* desktop */
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+}
